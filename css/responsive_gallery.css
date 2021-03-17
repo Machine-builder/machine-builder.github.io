@@ -1,0 +1,48 @@
+div.responsive-list {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+div.responsive {
+    margin: auto;
+    width: 99%;
+    background-color: rgb(72, 75, 78);
+
+    display: inline-block;
+    text-align: left;
+
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 400px) {
+    div.responsive {
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    div.responsive {
+        width: 33%;
+    }
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+
+div.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0px;
+}
+
+div.gallery p {
+    text-decoration: none;
+    color: white;
+}

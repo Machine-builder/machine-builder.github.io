@@ -1,0 +1,106 @@
+nav.navbar-custom {
+    margin: auto;
+    background-color: rgb(172, 191, 209);
+}
+
+div.main-body {
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+}
+
+div.footer {
+    margin: auto;
+    background-color: rgb(78, 85, 92);
+    padding: 5px 1px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.main-title {
+    text-align: center;
+    font-size: 42px;
+    /* font-size: 4vw; */
+}
+
+.auto-width {
+    width: 80%;
+    transition: all 500ms linear;
+}
+@media screen and (min-width: 1000px) {
+    .auto-width {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .auto-width {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+p {
+    padding: 0% 6%;
+}
+.main-body ul {
+    padding: 0% calc(6% + 20px);
+}
+
+t.paragraph-large-text {
+    font-size: 20px;
+}
+
+
+/* stuff for the project pages */
+
+div.project-thumbnail-container {
+    display: inline-block;
+    text-align: center;
+}
+
+img.responsive-scale {
+    width: 90%;
+    margin: auto;
+}
+/* @media screen and (min-width: 400px) {
+    img.responsive-scale {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 800px) {
+    img.responsive-scale {
+        width: 45%;
+    }
+} */
+
+div.video {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    padding-bottom: 28.125%;
+}
+
+.video iframe {
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+t.font-big {
+    font-size: 24px;
+}
+t.color-blue {
+    color: rgb(155, 199, 240)
+}
+a.download-link {
+    font-size: 20px;
+}
