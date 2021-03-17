@@ -24,10 +24,10 @@ div.footer {
 
 h1.main-title {
     text-align: center;
-    font-size: 42px;
-    max-width: 100%;
+    font-size: 32px;
     color:rgb(154, 206, 255);
     font-size: 4vw;
+    transition: all 500ms linear;
 }
 
 .auto-width {
