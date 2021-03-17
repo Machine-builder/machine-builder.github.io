@@ -25,8 +25,9 @@ div.footer {
 h1.main-title {
     text-align: center;
     font-size: 42px;
-    color:rgb(154, 206, 255)
-    /* font-size: 4vw; */
+    max-width: 100%;
+    color:rgb(154, 206, 255);
+    font-size: 4vw;
 }
 
 .auto-width {
