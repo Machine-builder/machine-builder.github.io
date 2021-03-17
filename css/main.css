@@ -36,7 +36,7 @@ h1.main-title {
 }
 @media screen and (min-width: 1000px) {
     .auto-width {
-        width: 70%;
+        width: 80%;
     }
     h1.main-title {
         font-size: 3.5vw;
@@ -44,7 +44,7 @@ h1.main-title {
 }
 @media screen and (min-width: 1300px) {
     .auto-width {
-        width: 50%;
+        width: 75%;
     }
     h1.main-title {
         font-size: 2.8vw;

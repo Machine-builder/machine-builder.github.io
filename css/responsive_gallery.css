@@ -2,21 +2,25 @@ div.responsive-list {
     text-align: center;
     width: 90%;
     margin: auto;
+    
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 div.responsive {
     margin: auto;
-    width: 99%;
     background-color: rgb(72, 75, 78);
-
-    display: inline-block;
     text-align: left;
-
     border-radius: 2px;
     margin-bottom: 5px;
+
+    max-width: 400px;
+    /* flex-grow: 1 1 auto; */
 }
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
     div.responsive {
         width: 49%;
     }
@@ -26,7 +30,7 @@ div.responsive {
     div.responsive {
         width: 33%;
     }
-}
+} */
 
 div.gallery img {
     width: 90%;
