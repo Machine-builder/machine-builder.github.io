@@ -6,6 +6,8 @@ nav.navbar-custom {
 div.main-body {
     margin: auto;
     background-color: rgb(46, 46, 46);
+    padding-bottom: 8px;
+    margin-bottom: 14px;
 }
 
 div.footer {
