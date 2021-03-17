@@ -26,22 +26,28 @@ h1.main-title {
     text-align: center;
     font-size: 32px;
     color:rgb(154, 206, 255);
-    font-size: 4vw;
-    transition: all 500ms linear;
+    font-size: 5vw;
+    transition: all 250ms linear;
 }
 
 .auto-width {
-    width: 80%;
-    transition: all 500ms linear;
+    width: 95%;
+    transition: all 250ms linear;
 }
 @media screen and (min-width: 1000px) {
     .auto-width {
-        width: 60%;
+        width: 70%;
+    }
+    h1.main-title {
+        font-size: 3.5vw;
     }
 }
 @media screen and (min-width: 1300px) {
     .auto-width {
         width: 50%;
+    }
+    h1.main-title {
+        font-size: 2.8vw;
     }
 }
 
