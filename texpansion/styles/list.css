@@ -1,0 +1,6 @@
+ul {
+    list-style-type: circle;
+}
+ul li {
+    padding: 5px 0px;
+}
