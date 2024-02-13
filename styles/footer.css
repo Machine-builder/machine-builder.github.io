@@ -4,6 +4,7 @@ div#footer {
     font-family: Kanit_Regular !important;
     background-color: #252729;
     padding: 20px 0px;
+    margin-top: auto;
 }
 
 div#footer > span.t1 {
