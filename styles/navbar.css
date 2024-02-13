@@ -1,0 +1,23 @@
+div#navbar {
+    width: 100%;
+    text-align: center;
+    font-family: Kanit_Regular !important;
+    background-color: #252729;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+div#navbar > a {
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+    top: 0;
+    transition: top 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div#navbar > a:hover {
+    top: -4px;
+    padding-bottom: 5px;
+}

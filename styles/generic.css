@@ -1,0 +1,62 @@
+body {
+    background-color: #e7e7e7;
+}
+
+div.separator {
+    height: 50px;
+}
+
+div.profile-container {
+    display: flex;
+    align-items: left;
+}
+
+img.profile {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: Kanit_Regular !important;
+}
+h2 {
+    font-family: Kanit_Regular !important;
+    color: #606060;
+}
+h3 {
+    font-family: Kanit_Regular !important;
+    color: #606060;
+}
+li {
+    font-family: Kanit_Regular !important;
+}
+
+p {
+    font-size: 18px;
+    font-family: Kanit_Regular !important;
+    color: #313131;
+}
+
+
+
+/* Youtube embeds */
+
+.youtube-embed-container {
+    width: 600px;
+    height: 337px;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: both;
+    position: relative;
+    z-index: 2;
+}
+
+.youtube-embed-container > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

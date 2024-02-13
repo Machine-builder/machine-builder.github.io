@@ -1,0 +1,32 @@
+div#footer {
+    width: 100%;
+    text-align: center;
+    font-family: Kanit_Regular !important;
+    background-color: #252729;
+    padding: 20px 0px;
+}
+
+div#footer > span.t1 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+div#footer > span.t2 {
+    font-size: 18px;
+    color: #c9c9c9;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+i.footer-link {
+    font-size: 38px;
+    padding: 5px 15px;
+}
+
+.footer-link:hover {
+    color: rgb(139, 199, 255);
+}
