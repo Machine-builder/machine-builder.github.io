@@ -80,14 +80,14 @@ img.img-small {
 /* Various sizes for the youtube embeds */
 @media screen and (max-width: 1000px) {
     .youtube-embed-container {
-        width: 500px;
-        height: 280px;
+        width: 470px;
+        height: 258px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .youtube-embed-container {
-        width: 400px;
-        height: 225px;
+        width: 350px;
+        height: 196px;
     }
 }
