@@ -27,6 +27,7 @@ h2 {
 h3 {
     font-family: Kanit_Regular !important;
     color: #606060;
+    font-size: 26px;
 }
 li {
     font-family: Kanit_Regular !important;
@@ -38,6 +39,17 @@ p {
     color: #313131;
 }
 
+
+
+/* Images on project pages */
+
+img.img-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: auto;
+}
 
 
 /* Youtube embeds */
