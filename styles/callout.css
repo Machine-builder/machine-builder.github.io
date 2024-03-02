@@ -1,0 +1,40 @@
+ul.callout {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding: 10px 20px 10px 50px;
+    background-color: #d8d8d3;
+    border-radius: 5px;
+}
+ul.callout > li {
+    margin-bottom: 0px;
+}
+ul.callout > li::before {
+    content: "💡";
+    position: absolute;
+    left: 20px;
+}
+ul.callout-warn > li::before {
+    content: "🚨";
+}
+
+
+
+/* old callouts used spans */
+
+/* span.callout {
+    display: block;
+    width: 100%;
+    margin: 0px 0px;
+    margin-bottom: 15px;
+    background-color: #f1f1ef;
+    border-radius: 5px;
+    padding: 20px;
+}
+span.callout > i.fa {
+    margin-right: 15px;
+    color: rgb(73, 143, 235);
+    position: relative;
+    top: 2px;
+    font-size: 24px;
+} */
